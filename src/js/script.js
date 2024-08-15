@@ -14,7 +14,7 @@ const button = document.getElementById('button-prod');
 const products = document.querySelectorAll(".produto");
 
 
-    button.addEventListener('mouseover', () => {
+    button.addEventListener('click', () => {
   
         products.forEach(products => {
             if (products.style.display === 'none' || products.style.display === '' ) {
