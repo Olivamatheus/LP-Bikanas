@@ -30,7 +30,7 @@
 }
 
 .top-content p {
-    width: 400px;
+    max-width: 400px;
     font-size: 1.5rem;
     color: var(--cor5);
     text-align: justify;
@@ -64,8 +64,7 @@
     left: 0;
     display: flex;
     margin-left: 120px;
-    cursor: pointer;
-    animation: pulsar 0.5s infinite;
+    animation: pulsar 0.3s infinite;
 }
 
 .circle {
@@ -373,7 +372,7 @@
     }
 
     .button-box {
-        width: 400px;
+        width: 100vw;
         margin: auto;
     }
 
@@ -384,7 +383,7 @@
     }
 
     .content-III {
-        max-width: 400px;
+        max-width: 380px;
         height: 350px;
         flex-wrap: wrap;
     }
@@ -447,7 +446,7 @@
     }
 
     .content-IV {
-        width: 400px;
+        width: 100vw;
         height: 400px;
         display: flex;
         flex-wrap: wrap;
